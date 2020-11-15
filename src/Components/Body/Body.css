@@ -1,0 +1,16 @@
+.body {
+    background-color: rgb(255, 153, 0);
+    /* background-image: "./background-image.png"; */
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    flex: 1;
+    display: flex;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.body__left {
+    width: 96%;
+    flex-direction: column;
+}
